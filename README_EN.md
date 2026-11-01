@@ -8,6 +8,10 @@ Choose **Português (PT)** or **English (EN)** using the **Language / Idioma** s
 
 This is an executable first version, not a universal single-photo 3D reconstruction system. A photo supplies a silhouette; you supply a known measurement, choose a construction method, and define missing dimensions. Measurements inferred from perspective images remain approximate.
 
+## Browser-only evaluation
+
+Cloud deployment support is prepared using `online_cad.py`. The app owner must complete Streamlit Community Cloud sign-in and verify the Linux build before publishing a live demo URL. See [online deployment notes](docs/ONLINE_DEMO.md). The GitHub repository URL itself is the source, not the running app.
+
 ## Requirements
 
 - Python **3.12**, in a dedicated virtual environment.
