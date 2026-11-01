@@ -1,0 +1,8 @@
+Comando executado na pasta outputs/contorno_cad:
+../../work/.venv/bin/python -m pytest -q -W ignore
+
+Saída registrada em 22/10/2026:
+...............................                                          [100%]
+31 passed in 6.76s
+
+Este registro é saída de testes automatizados; não é uma captura de tela.

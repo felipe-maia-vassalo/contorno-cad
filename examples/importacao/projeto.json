@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "mode": "import",
+  "source": "duas_ponteiras.glb",
+  "unidade_confirmada": "mm",
+  "transform": {
+    "translation": [
+      10,
+      5,
+      2
+    ],
+    "rotation": [
+      0,
+      0,
+      30
+    ],
+    "scale": 1.1
+  }
+}

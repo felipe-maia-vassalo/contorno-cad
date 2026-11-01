@@ -1,0 +1,10 @@
+{
+  "resultado": "APROVADO",
+  "saida": "<workspace>/outputs/contorno_cad/examples",
+  "volume_original_mm3": 18503.48289166056,
+  "volume_modificado_mm3": 19144.32945587437,
+  "altura_original_mm": 45.0000001,
+  "altura_modificada_mm": 48.00000010000001,
+  "step_valido": true,
+  "stl_fechado": true
+}

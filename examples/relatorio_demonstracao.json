@@ -1,0 +1,402 @@
+{
+  "tipo_validacao": "automatizada; fotografias JPEG reais e motor OpenCascade real",
+  "capturas_de_tela": false,
+  "nota_imagens": "PNG são máscaras e sobreposições computadas, não screenshots ou renderizações simuladas.",
+  "fotografia_principal": {
+    "arquivo": "ponteira_referencia.jpeg",
+    "bytes_jpeg": 87101,
+    "formato": "JPEG",
+    "resolucao_px": {
+      "largura": 936,
+      "altura": 619
+    },
+    "parametros_processamento": {
+      "crop": [
+        20,
+        25,
+        495,
+        600
+      ],
+      "method": "Escuro",
+      "threshold": 180,
+      "blur": 3,
+      "close": 5,
+      "min_area": 1000
+    },
+    "contornos_detectados": 1,
+    "pontos_contorno_bruto": 663,
+    "area_contorno_px2": 186255.0,
+    "limites_contorno_xywh_px": [
+      42,
+      39,
+      431,
+      543
+    ],
+    "calibracao": {
+      "points_px": [
+        [
+          257.5,
+          39.0
+        ],
+        [
+          257.5,
+          581.0
+        ]
+      ],
+      "distance_mm": 45.0,
+      "mm_per_pixel": 0.08302583025830258,
+      "origin_px": [
+        257.5,
+        581
+      ],
+      "points": [
+        [
+          257.5,
+          39.0
+        ],
+        [
+          257.5,
+          581.0
+        ]
+      ],
+      "scale": 0.08302583025830258,
+      "origin": [
+        257.5,
+        581
+      ],
+      "axis_x": 257.5,
+      "approximate": true
+    },
+    "pontos_perfil": 12,
+    "raios_aproximados_mm": {
+      "minimo": 11.665129151291513,
+      "maximo": 17.809040590405903
+    }
+  },
+  "cad_original": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 18503.48289166056,
+    "area_mm2": 7255.176097849981,
+    "dimensions_mm": {
+      "x": 35.61808118081181,
+      "y": 35.61808118081181,
+      "z": 45.0000001
+    }
+  },
+  "cad_modificado": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 19144.32945587437,
+    "area_mm2": 7353.642123224032,
+    "dimensions_mm": {
+      "x": 35.61808118081181,
+      "y": 35.61808118081181,
+      "z": 48.00000010000001
+    }
+  },
+  "modificacao": {
+    "parametro": "dome_rise",
+    "antes_mm": 6,
+    "depois_mm": 9,
+    "diferenca_volume_mm3": 640.8465642138108
+  },
+  "persistencia": {
+    "json_roundtrip_identico": true,
+    "jpeg_preservado": true
+  },
+  "exportacao_original": {
+    "representacao": "sólido CAD",
+    "unidade": "mm",
+    "valido": true,
+    "solidos": 1,
+    "volume_mm3": 18503.48289166056,
+    "limites_mm": [
+      [
+        -17.809040590405903,
+        -17.809040590405903,
+        0.0
+      ],
+      [
+        17.809040590405903,
+        17.809040590405903,
+        45.0000001
+      ]
+    ],
+    "fechado": true,
+    "normalizacao_tesselacao_cad": {
+      "triangulos_antes": 5821,
+      "triangulos_depois": 5820,
+      "triangulos_area_zero_removidos": 1,
+      "triangulos_duplicados_removidos": 0,
+      "fechado_antes": false,
+      "fechado_depois": true,
+      "diferenca_volume_mm3": 0.0,
+      "metodo": "Remoção explícita de triângulos de área exatamente zero e duplicados; sem preencher furos, inverter faces ou mover vértices."
+    },
+    "stl_reimportado": {
+      "representacao": "malha triangular",
+      "unidade": "mm",
+      "valido": true,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "volume_mm3": 18462.40129556748,
+      "fabricavel": true,
+      "vertices": 2912,
+      "triangulos": 5820,
+      "limites_mm": [
+        [
+          -17.809040069580078,
+          -17.803504943847656,
+          0.0
+        ],
+        [
+          17.809040069580078,
+          17.803504943847656,
+          45.0
+        ]
+      ]
+    },
+    "step_reimportado": {
+      "representacao": "sólido CAD",
+      "unidade": "mm",
+      "valido": true,
+      "solidos": 1,
+      "volume_mm3": 18503.482891661817,
+      "limites_mm": [
+        [
+          -17.809040590406,
+          -17.809040590406,
+          0.0
+        ],
+        [
+          17.8090405904061,
+          17.809040590406,
+          45.000000099999994
+        ]
+      ],
+      "fechado": true
+    },
+    "diferenca_volume_step_mm3": 1.2587406672537327e-09
+  },
+  "exportacao_modificada": {
+    "representacao": "sólido CAD",
+    "unidade": "mm",
+    "valido": true,
+    "solidos": 1,
+    "volume_mm3": 19144.32945587437,
+    "limites_mm": [
+      [
+        -17.809040590405903,
+        -17.809040590405903,
+        0.0
+      ],
+      [
+        17.809040590405903,
+        17.809040590405903,
+        48.00000010000001
+      ]
+    ],
+    "fechado": true,
+    "normalizacao_tesselacao_cad": {
+      "triangulos_antes": 7283,
+      "triangulos_depois": 7282,
+      "triangulos_area_zero_removidos": 1,
+      "triangulos_duplicados_removidos": 0,
+      "fechado_antes": false,
+      "fechado_depois": true,
+      "diferenca_volume_mm3": 0.0,
+      "metodo": "Remoção explícita de triângulos de área exatamente zero e duplicados; sem preencher furos, inverter faces ou mover vértices."
+    },
+    "stl_reimportado": {
+      "representacao": "malha triangular",
+      "unidade": "mm",
+      "valido": true,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "volume_mm3": 19102.277740634352,
+      "fabricavel": true,
+      "vertices": 3643,
+      "triangulos": 7282,
+      "limites_mm": [
+        [
+          -17.809040069580078,
+          -17.803504943847656,
+          0.0
+        ],
+        [
+          17.809040069580078,
+          17.803504943847656,
+          48.0
+        ]
+      ]
+    },
+    "step_reimportado": {
+      "representacao": "sólido CAD",
+      "unidade": "mm",
+      "valido": true,
+      "solidos": 1,
+      "volume_mm3": 19144.329455875577,
+      "limites_mm": [
+        [
+          -17.809040590406,
+          -17.809040590406,
+          0.0
+        ],
+        [
+          17.8090405904061,
+          17.809040590406,
+          48.0000001
+        ]
+      ],
+      "fechado": true
+    },
+    "diferenca_volume_step_mm3": 1.2078089639544487e-09
+  },
+  "importacao_intermediaria": {
+    "origem": "gerado deste CAD; não houve execução do SketchUp",
+    "componentes_glb": 2,
+    "componentes_obj": 1,
+    "volume_antes_mm3": 18462.401295567477,
+    "volume_depois_mm3": 24573.456124400323,
+    "fator_volume_esperado": 1.3310000000000004,
+    "malha_transformada": {
+      "representacao": "malha triangular",
+      "unidade": "mm",
+      "valido": true,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "volume_mm3": 24573.456124400323,
+      "fabricavel": true,
+      "vertices": 2912,
+      "triangulos": 5820,
+      "limites_mm": [
+        [
+          38.04754154146733,
+          12.910055656022173,
+          2.0
+        ],
+        [
+          77.21525287482093,
+          52.08994434397783,
+          51.50000000000001
+        ]
+      ]
+    }
+  },
+  "segunda_fotografia": {
+    "arquivo": "ponteira_curva.jpeg",
+    "bytes_jpeg": 64327,
+    "formato": "JPEG",
+    "resolucao_px": {
+      "largura": 1280,
+      "altura": 1091
+    },
+    "parametros_processamento": {
+      "crop": [
+        170,
+        100,
+        1060,
+        1091
+      ],
+      "method": "Fundo colorido",
+      "saturation": 105,
+      "blur": 3,
+      "close": 5,
+      "min_area": 1000
+    },
+    "contornos_detectados": 1,
+    "pontos_contorno_bruto": 1177,
+    "area_contorno_px2": 635739.5,
+    "limites_contorno_xywh_px": [
+      197,
+      100,
+      833,
+      963
+    ],
+    "calibracao": {
+      "points_px": [
+        [
+          613.5,
+          100.0
+        ],
+        [
+          613.5,
+          1062.0
+        ]
+      ],
+      "distance_mm": 45.0,
+      "mm_per_pixel": 0.04677754677754678,
+      "origin_px": [
+        613.5,
+        1062
+      ],
+      "points": [
+        [
+          613.5,
+          100.0
+        ],
+        [
+          613.5,
+          1062.0
+        ]
+      ],
+      "scale": 0.04677754677754678,
+      "origin": [
+        613.5,
+        1062
+      ],
+      "axis_x": 613.5,
+      "approximate": true
+    },
+    "pontos_perfil": 12,
+    "raios_aproximados_mm": {
+      "minimo": 13.074324324324325,
+      "maximo": 19.295738045738048
+    },
+    "marcacao_verde": {
+      "pixels_verdes": 8098,
+      "eixo_marcacao_px": 609.5,
+      "ombro_marcacao_px": [
+        968.0,
+        165.0
+      ],
+      "coroa_marcacao_px": [
+        609.5,
+        45.0
+      ],
+      "controles_relativos": [
+        {
+          "r": 0.9,
+          "h": 0.30833333333333335
+        },
+        {
+          "r": 0.75,
+          "h": 0.5416666666666666
+        },
+        {
+          "r": 0.5,
+          "h": 0.825
+        },
+        {
+          "r": 0.25,
+          "h": 0.9375
+        }
+      ]
+    }
+  },
+  "cad_curva_verde": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 25053.557172573775,
+    "area_mm2": 7860.710908951749,
+    "dimensions_mm": {
+      "x": 38.591476091476096,
+      "y": 38.591476091476096,
+      "z": 45.000000099999994
+    }
+  }
+}

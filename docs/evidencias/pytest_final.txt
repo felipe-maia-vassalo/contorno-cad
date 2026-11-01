@@ -1,0 +1,78 @@
+....................................                                     [100%]
+=============================== warnings summary ===============================
+../../work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:609
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:609: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    simple_dir = oneOf(["X", "Y", "Z", "XY", "XZ", "YZ"])
+
+../../work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:613
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:613: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    cqtype = oneOf(
+
+../../work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:616
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:616: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+    cqtype = cqtype.setParseAction(pyparsing_common.upcaseTokens)
+
+../../work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:622
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:622: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    direction_op = oneOf([">", "<"])
+
+../../work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:625
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:625: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    center_nth_op = oneOf([">>", "<<"])
+
+../../work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:635
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:635: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    other_op = oneOf(["|", "#", "+", "-"])
+
+../../work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:638
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:638: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    named_view = oneOf(["front", "back", "left", "right", "top", "bottom"])
+
+../../work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:763
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:763: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    delta_op = oneOf(["exc", "except"])
+
+../../work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:770
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:770: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+    atom.setParseAction(atom_callback)
+
+../../work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:793
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:793: PyparsingDeprecationWarning: 'infixNotation' deprecated - use 'infix_notation'
+    expr = infixNotation(
+
+../../work/.venv/lib/python3.12/site-packages/cadquery/assembly.py:65
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/assembly.py:65: PyparsingDeprecationWarning: 'delimitedList' deprecated - use 'DelimitedList'
+    Name = delimitedList(
+
+../../work/.venv/lib/python3.12/site-packages/cadquery/assembly.py:67
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/assembly.py:67: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    ).setResultsName("name")
+
+../../work/.venv/lib/python3.12/site-packages/cadquery/assembly.py:68
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/assembly.py:68: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    Tag = Word(alphas, alphanums + "_").setResultsName("tag")
+
+../../work/.venv/lib/python3.12/site-packages/cadquery/assembly.py:69
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/assembly.py:69: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    Selector = _selector_grammar.setResultsName("selector")
+
+../../work/.venv/lib/python3.12/site-packages/cadquery/assembly.py:73
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/assembly.py:73: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    ).setResultsName("selector_kind")
+
+tests/test_cad.py::test_assisted_cut_fillet_chamfer_and_scale
+tests/test_cad.py::test_assisted_cut_fillet_chamfer_and_scale
+tests/test_cad.py::test_no_silent_ignored_operations_or_invalid_solids
+tests/test_io3d.py::test_step_roundtrip_and_transformed_component
+  <workspace>/work/.venv/lib/python3.12/site-packages/cadquery/selectors.py:865: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse_result = _expression_grammar.parseString(selectorString, parseAll=True)
+
+tests/test_cad.py::test_assisted_cut_fillet_chamfer_and_scale
+tests/test_cad.py::test_assisted_cut_fillet_chamfer_and_scale
+tests/test_cad.py::test_no_silent_ignored_operations_or_invalid_solids
+tests/test_io3d.py::test_step_roundtrip_and_transformed_component
+  <workspace>/work/.venv/lib/python3.12/site-packages/pyparsing/util.py:466: PyparsingDeprecationWarning: 'parseAll' argument is deprecated, use 'parse_all'
+    return fn(self, *args, **kwargs)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+36 passed, 23 warnings in 10.54s

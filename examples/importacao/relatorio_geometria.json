@@ -1,0 +1,48 @@
+{
+  "representacao": "malha triangular",
+  "unidade": "mm",
+  "valido": true,
+  "fechado": true,
+  "orientacao_consistente": true,
+  "volume_positivo": true,
+  "volume_mm3": 24573.456124400323,
+  "fabricavel": true,
+  "vertices": 2912,
+  "triangulos": 5820,
+  "limites_mm": [
+    [
+      38.04754154146733,
+      12.910055656022173,
+      2.0
+    ],
+    [
+      77.21525287482093,
+      52.08994434397783,
+      51.50000000000001
+    ]
+  ],
+  "stl_reimportado": {
+    "representacao": "malha triangular",
+    "unidade": "mm",
+    "valido": true,
+    "fechado": true,
+    "orientacao_consistente": true,
+    "volume_positivo": true,
+    "volume_mm3": 24573.455713588268,
+    "fabricavel": true,
+    "vertices": 2912,
+    "triangulos": 5820,
+    "limites_mm": [
+      [
+        38.047542572021484,
+        12.910056114196777,
+        2.0
+      ],
+      [
+        77.21525573730469,
+        52.089942932128906,
+        51.5
+      ]
+    ]
+  }
+}

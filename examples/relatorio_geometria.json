@@ -1,0 +1,75 @@
+{
+  "representacao": "sólido CAD",
+  "unidade": "mm",
+  "valido": true,
+  "solidos": 1,
+  "volume_mm3": 18503.48289166056,
+  "limites_mm": [
+    [
+      -17.809040590405903,
+      -17.809040590405903,
+      0.0
+    ],
+    [
+      17.809040590405903,
+      17.809040590405903,
+      45.0000001
+    ]
+  ],
+  "fechado": true,
+  "normalizacao_tesselacao_cad": {
+    "triangulos_antes": 5821,
+    "triangulos_depois": 5820,
+    "triangulos_area_zero_removidos": 1,
+    "triangulos_duplicados_removidos": 0,
+    "fechado_antes": false,
+    "fechado_depois": true,
+    "diferenca_volume_mm3": 0.0,
+    "metodo": "Remoção explícita de triângulos de área exatamente zero e duplicados; sem preencher furos, inverter faces ou mover vértices."
+  },
+  "stl_reimportado": {
+    "representacao": "malha triangular",
+    "unidade": "mm",
+    "valido": true,
+    "fechado": true,
+    "orientacao_consistente": true,
+    "volume_positivo": true,
+    "volume_mm3": 18462.40129556748,
+    "fabricavel": true,
+    "vertices": 2912,
+    "triangulos": 5820,
+    "limites_mm": [
+      [
+        -17.809040069580078,
+        -17.803504943847656,
+        0.0
+      ],
+      [
+        17.809040069580078,
+        17.803504943847656,
+        45.0
+      ]
+    ]
+  },
+  "step_reimportado": {
+    "representacao": "sólido CAD",
+    "unidade": "mm",
+    "valido": true,
+    "solidos": 1,
+    "volume_mm3": 18503.482891661817,
+    "limites_mm": [
+      [
+        -17.809040590406,
+        -17.809040590406,
+        0.0
+      ],
+      [
+        17.8090405904061,
+        17.809040590406,
+        45.000000099999994
+      ]
+    ],
+    "fechado": true
+  },
+  "diferenca_volume_step_mm3": 1.2587406672537327e-09
+}
