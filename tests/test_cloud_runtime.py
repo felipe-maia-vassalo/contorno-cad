@@ -75,6 +75,7 @@ def test_online_entry_runs_real_cad_example_and_exports():
     at = AppTest.from_file(str(ROOT / "online_cad.py"), default_timeout=90).run()
     assert not at.exception and not at.error
     assert any("Online evaluation demo" in x.value for x in at.caption)
+    assert any(x.value == "Assisted reconstruction · online · mm" for x in at.caption)
     next(b for b in at.button if b.label == "Open calibrated end cap example").click().run()
     next(r for r in at.radio if r.label == "Workflow").set_value("Editor CAD").run()
     next(b for b in at.button if b.label == "Generate / update model").click().run()

@@ -513,7 +513,7 @@ def export_page(p):
     if kind=="mesh":st.info(t('STEP indisponível: o componente é uma malha. Nenhuma conversão automática para sólido foi presumida.'))
 
 
-def run():
+def run(hosted=False):
     st.set_page_config(page_title="Contorno CAD",page_icon="◈",layout="wide")
     language_column, _ = st.columns([2, 5])
     language = language_column.selectbox("Language / Idioma", list(LANGUAGES),
@@ -524,7 +524,7 @@ def run():
     p=st.session_state.project
     with st.sidebar:
         st.title(t('◈ Contorno CAD'))
-        st.caption(t('Reconstrução assistida · local · mm'))
+        st.caption(t('Reconstrução assistida · online · mm') if hosted else t('Reconstrução assistida · local · mm'))
         route=st.radio(t('Fluxo de trabalho'),PAGES,key="route", format_func=formatter())
         st.divider()
         p["name"]=st.text_input(t('Nome do projeto'),p.get("name","Novo projeto"), key='ui_run_522')

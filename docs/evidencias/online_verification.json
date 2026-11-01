@@ -1,0 +1,68 @@
+{
+  "modelo.stl": {
+    "representacao": "malha triangular",
+    "unidade": "mm",
+    "valido": true,
+    "fechado": true,
+    "orientacao_consistente": true,
+    "volume_positivo": true,
+    "volume_mm3": 19102.454730142275,
+    "fabricavel": true,
+    "vertices": 3651,
+    "triangulos": 7298,
+    "limites_mm": [
+      [
+        -17.809040069580078,
+        -17.803504943847656,
+        0.0
+      ],
+      [
+        17.809040069580078,
+        17.803504943847656,
+        48.0
+      ]
+    ]
+  },
+  "modelo.step": {
+    "representacao": "s\u00f3lido CAD",
+    "unidade": "mm",
+    "valido": true,
+    "solidos": 1,
+    "volume_mm3": 19144.329455875577,
+    "limites_mm": [
+      [
+        -17.809040590406,
+        -17.809040590406,
+        0.0
+      ],
+      [
+        17.8090405904061,
+        17.809040590406,
+        48.0000001
+      ]
+    ],
+    "fechado": true
+  },
+  "url": "https://contorno-cad.streamlit.app/",
+  "date": "2026-11-01",
+  "cloud_platform": "Debian Linux amd64 / Python 3.12.16",
+  "public_sharing_confirmed": true,
+  "live_browser_workflow": [
+    "Included real JPEG -> contour detection",
+    "Confirmed 45 mm calibration",
+    "Generated 45 mm solid: 18503.48 mm3",
+    "Mouse rotation",
+    "Changed dome rise from 6 to 9 mm",
+    "Stale model warning",
+    "Regenerated 48 mm solid: 19144.33 mm3",
+    "Cloud STL and STEP reimport validation",
+    "Downloaded complete ZIP through the browser",
+    "Reimported downloaded geometry locally"
+  ],
+  "cloud_step_volume_mm3": 19144.32945587558,
+  "cloud_cad_volume_mm3": 19144.32945587437,
+  "stl_volume_mm3": 19102.454730142275,
+  "dome_rise_mm": 9,
+  "reference_image": "Included JPEG example; a new file chooser upload was not exercised in this cloud test.",
+  "verification_limits": "One public evaluation workflow was tested; concurrent-user load, every operation and anonymous-browser access were not independently exercised. Public sharing was confirmed in the provider UI."
+}

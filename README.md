@@ -10,7 +10,9 @@ This is an executable first version, not a universal single-photo 3D reconstruct
 
 ## Browser-only evaluation
 
-Cloud deployment support is prepared using `online_cad.py`. The app owner must complete Streamlit Community Cloud sign-in and verify the Linux build before publishing a live demo URL. See [online deployment notes](docs/ONLINE_DEMO.md). The GitHub repository URL itself is the source, not the running app.
+**[Open the live Contorno CAD app](https://contorno-cad.streamlit.app/)** - no local installation required. The public evaluation demo runs in English on Streamlit Community Cloud. Start with **Open calibrated end cap example**, then **CAD Editor -> Generate / update model**.
+
+The live Linux workflow was verified on 1 November 2026: real example JPEG/contour/calibration, CAD generation, a 45 -> 48 mm change, interactive rotation and valid downloaded STL/STEP. Use non-confidential test images; processing occurs on the hosting server. Free hosting may sleep or reach resource limits. See [online deployment notes and evidence](docs/ONLINE_DEMO.md).
 
 ## Requirements
 

@@ -368,5 +368,6 @@
   "y do ponto {v1}": "point {v1} y",
   "Forma {v1}": "Shape {v1}",
   "Operação {v1} ({v3})": "Operation {v1} ({v3})",
-  "Formato do topo extraído da anotação verde, normalizado para elevação hipotética de 6 mm.": "Dome shape extracted from the green annotation and normalized to an assumed 6 mm rise."
+  "Formato do topo extraído da anotação verde, normalizado para elevação hipotética de 6 mm.": "Dome shape extracted from the green annotation and normalized to an assumed 6 mm rise.",
+  "Reconstrução assistida · online · mm": "Assisted reconstruction · online · mm"
 }

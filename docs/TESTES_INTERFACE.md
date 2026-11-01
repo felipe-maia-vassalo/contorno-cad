@@ -24,7 +24,7 @@ Fixtures inserted into `session_state` are documented as fixtures, not uploads t
 
 `evidencias/00_painel_real.jpg` through `10_calibracao_pontos_real.jpg` are historical real browser captures of the original Portuguese interface: home, contour processing, profile editing/overlay, 45 mm model, rotated view, modified 48 mm model, export checks, manual point edit and calibration. They are retained in their original language/date. Generated OpenCV overlays are separately identified and are not presented as screenshots.
 
-The English update has automated AppTest and real JavaScript render-handler verification. No new English browser capture is claimed unless separately recorded. The JavaScript harness covers translated labels and pending-point preservation; it does not replace all browser drag/rotate interactions.
+The English update has automated AppTest and real JavaScript render-handler verification. New real English cloud captures and a completed live workflow are now separately recorded in [online deployment verification](ONLINE_DEMO.md). The JavaScript harness covers translated labels and pending-point preservation; it does not replace all browser drag/rotate interactions.
 
 ## Geometry regressions linked to viewing
 

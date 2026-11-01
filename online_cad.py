@@ -26,4 +26,4 @@ st.caption(
 )
 
 from contorno_cad.ui import run
-run()
+run(hosted=True)
