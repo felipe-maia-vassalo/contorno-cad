@@ -12,13 +12,13 @@ Prepared 1 November 2026. Target: Streamlit Community Cloud, Python **3.12**, Li
 
 Sign in at https://share.streamlit.io/, connect the intended GitHub account and create an app from this repository. Use a public reviewer-facing app. Select an available URL label in the deployment form; do not advertise an unverified guessed URL.
 
-Community Cloud installs `requirements.txt` and Debian libraries listed in `packages.txt`. `online_cad.py` automatically performs the mandatory first-run CasADi selection in the dedicated hosted virtual environment before importing the CAD engine. Existing invalid/changed manifests are rejected rather than silently repaired. A process/thread lock serializes preparation; the prepared runtime is cached across sessions. The normal local entry point `iniciar_cad.py` retains its explicit preparation behavior.
+Community Cloud installs `requirements.txt` and Debian libraries listed in `packages.txt`. `online_cad.py` automatically creates an app-owned selected CasADi core in temporary storage before importing the CAD engine; the managed host environment remains unchanged. Only allowlisted core/runtime files and legal notices are copied. A fresh subprocess verifies the selected native core before it is exposed on the import path. Existing invalid/changed manifests are rejected rather than silently repaired. A process/thread lock serializes preparation; the prepared runtime is cached across sessions. The normal local entry point `iniciar_cad.py` retains its explicit preparation behavior.
 
 ## Verification before sharing
 
 Check build/runtime logs, confirm English startup, open the included calibrated example, generate the real solid, change dome rise, regenerate, prepare STL/STEP, and download/reimport when supported by the validation environment. Distinguish the actual cloud/Linux test from the local macOS tests.
 
-Prepared-entry verification on macOS: **48 passed, 23 dependency warnings, 14.73 seconds**, including hosted-entry AppTest with real CAD generation/exports. `docs/evidencias/pytest_cloud.txt` and `.xml` record the executed tests. Unit tests check concurrent first-run preparation and rejection of a changed manifest. These results do not establish a completed Linux cloud build or interactive cloud browser validation.
+Prepared-entry verification on macOS: **50 tests passed**, including hosted-entry AppTest with real CAD generation/exports. `docs/evidencias/pytest_cloud_copy.txt` record the executed tests. Tests check read-only source preservation, exclusion of optional solvers, concurrent first-run copying, changed-copy rejection, and actual native-core import from the selected copy in a fresh process. These results do not establish a completed Linux cloud build or interactive cloud browser validation.
 
 ## Reviewer use
 

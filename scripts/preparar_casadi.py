@@ -75,7 +75,12 @@ def _itens_nao_permitidos(pacote: Path) -> list[Path]:
 
 def verificar_instalacao() -> dict[str, Any]:
     """Confere versão, conteúdo e hashes sem importar o kernel ou otimizadores."""
-    pacote = _localizar()
+    return verificar_pacote(_localizar())
+
+
+def verificar_pacote(pacote: Path) -> dict[str, Any]:
+    """Verify an explicitly selected core, including an app-owned hosted copy."""
+    pacote = pacote.resolve()
     caminho = pacote / MARCADOR
     if not caminho.is_file():
         raise RuntimeError("Mandatory preparation missing. Run: python scripts/preparar_casadi.py")
